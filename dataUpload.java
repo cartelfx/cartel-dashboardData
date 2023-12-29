@@ -10,7 +10,7 @@ import java.io.InputStreamReader;
 public class DashboardDataUploader {
     public static void main(String[] args) {
         HttpClient httpClient = HttpClients.createDefault();
-        HttpPost httpPost = new HttpPost("URL_OF_YOUR_DASHBOARD_API");
+        HttpPost httpPost = new HttpPost("API URL");
 
         try {
             String jsonData = "{ \"username\": \"example_user\", \"data\": \"your_data\" }";
